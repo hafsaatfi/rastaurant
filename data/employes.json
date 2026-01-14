@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nom": "Ahmed Benali",
+    "email": "ahmed.benali@example.com",
+    "telephone": "0600000001",
+    "role": "Manager",
+    "salaire": 15000,
+    "statut": "Actif"
+  },
+  {
+    "id": 2,
+    "nom": "Sara El Fassi",
+    "email": "sara.elfassi@example.com",
+    "telephone": "0600000002",
+    "role": "Chef",
+    "salaire": 12000,
+    "statut": "Actif"
+  },
+  {
+    "id": 3,
+    "nom": "Youssef Khatib",
+    "email": "youssef.khatib@example.com",
+    "telephone": "0600000003",
+    "role": "Serveur",
+    "salaire": 7000,
+    "statut": "Actif"
+  },
+  {
+    "id": 4,
+    "nom": "Leila Ait",
+    "email": "leila.ait@example.com",
+    "telephone": "0600000004",
+    "role": "Caissier",
+    "salaire": 6500,
+    "statut": "Inactif"
+  },
+  {
+    "id": 5,
+    "nom": "Mohamed Zahra",
+    "email": "mohamed.zahra@example.com",
+    "telephone": "0600000005",
+    "role": "Agent d'entretien",
+    "salaire": 5000,
+    "statut": "Actif"
+  }
+]

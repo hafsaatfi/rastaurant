@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Commandes - MyManager</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container py-4">
+
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Gestion des Commandes</h2>
+    <button class="btn btn-success" id="add-commande-btn">➕ Ajouter une commande</button>
+  </div>
+
+  <div class="d-flex justify-content-between mb-3">
+    <input type="text" id="search-input" class="form-control w-50" placeholder="Rechercher par client ou table...">
+    
+  </div>
+
+  <table class="table table-bordered table-hover" id="commandes-table">
+    <thead class="table-dark">
+      <tr>
+        <th>ID</th>
+        <th>Client</th>
+        <th>Table</th>
+        <th>Articles</th>
+        <th>Total</th>
+        <th>Status</th>
+        <th>Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+<button class="btn btn-primary" id="export-pdf">📤 Exporter PDF</button>
+  <!-- MODAL AJOUT / EDIT -->
+  <div class="modal fade" id="commande-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="commande-form" class="p-3">
+          <input type="hidden" id="commande-id">
+          <h5>Ajouter / Modifier Commande</h5>
+          <div class="mb-2">
+            <label>Client</label>
+            <input type="text" id="commande-client" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label>Table</label>
+            <input type="text" id="commande-table" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label>Articles</label>
+            <input type="text" id="commande-articles" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label>Total (MAD)</label>
+            <input type="number" id="commande-total" class="form-control" required>
+          </div>
+          <div class="mb-2">
+            <label>Status</label>
+            <select id="commande-status" class="form-control">
+              <option value="En attente">En attente</option>
+              <option value="Livrée">Livrée</option>
+              <option value="Annulé">Annulé</option>
+            </select>
+          </div>
+          <div class="mb-2">
+            <label>Date</label>
+            <input type="datetime-local" id="commande-date" class="form-control" required>
+          </div>
+          <button class="btn btn-primary w-100 mt-2">Enregistrer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DETAILS -->
+  <div class="modal fade" id="detailsModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content p-3">
+        <h5>Détails Commande</h5>
+        <div id="detailsBody"></div>
+        <button class="btn btn-secondary mt-2 w-100" data-bs-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.29/jspdf.plugin.autotable.min.js"></script>
+<script src="js/commandes.js"></script>
+</body>
+</html>

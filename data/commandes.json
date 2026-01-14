@@ -1,0 +1,9 @@
+[
+  {"id":1001,"client":"Ahmed Benjelloun","table":"Table 3","articles":"4 articles","total":45.00,"status":"Livrée","date":"2024-12-01T12:30"},
+  {"id":1002,"client":"Fatima Zahra","table":"Table 5","articles":"2 articles","total":23.00,"status":"En préparation","date":"2024-12-01T13:15"},
+  {"id":1003,"client":"Mohamed Alaoui","table":"Table 1","articles":"3 articles","total":66.00,"status":"En attente","date":"2024-12-01T13:45"},
+  {"id":1004,"client":"Samira Bennani","table":"Table 7","articles":"6 articles","total":54.00,"status":"Prêt","date":"2024-12-01T14:00"},
+  {"id":1005,"client":"Youssef Tazi","table":"Table 2","articles":"2 articles","total":25.50,"status":"Livrée","date":"2024-12-02T12:00"},
+  {"id":1006,"client":"Khadija Ouazzani","table":"Table 4","articles":"4 articles","total":40.00,"status":"Annulé","date":"2024-12-02T13:30"},
+  {"id":1007,"client":"Hassan Berrada","table":"Table 6","articles":"3 articles","total":30.00,"status":"Livrée","date":"2024-12-03T12:15"}
+]

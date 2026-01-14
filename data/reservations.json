@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "client": "Nadia El Fassi",
+    "table": "Table 4",
+    "date": "2024-12-05",
+    "heure": "19:30",
+    "convives": "4 personne",
+    "statut": "annulé"
+  },
+  {
+    "id": 2,
+    "client": "Omar Senhaji",
+    "table": "Table 10",
+    "date": "2024-12-05",
+    "heure": "20:00",
+    "convives": "8 personne",
+    "statut": "En attente"
+  },
+  {
+    "id": 3,
+    "client": "Leila Benkirane",
+    "table": "Table 6",
+    "date": "2024-12-06",
+    "heure": "12:30",
+    "convives": "6 personne",
+    "statut": "Confirmé"
+  },
+  {
+    "id": 4,
+    "client": "hafsa aatfi",
+    "table": "Table 8",
+    "date": "2024-12-05",
+    "heure": "20:00",
+    "convives": "8 personne",
+    "statut": "annulé"
+  },
+  {
+    "id": 5,
+    "client": "safe berik",
+    "table": "Table 10",
+    "date": "2024-12-05",
+    "heure": "20:00",
+    "convives": "3 personne",
+    "statut": "Confirmé"
+  }
+]

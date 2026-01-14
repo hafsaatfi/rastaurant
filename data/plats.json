@@ -1,0 +1,8 @@
+let plats = [
+  {"id":1,"nom":"Pizza Margherita","categorie":"Pizza","prix":80,"status":"Disponible"},
+  {"id":2,"nom":"Salade César","categorie":"Salade","prix":50,"status":"Disponible"},
+  {"id":3,"nom":"Burger Classique","categorie":"Burger","prix":70,"status":"Indisponible"}
+];
+
+// Afficher directement les plats
+renderTable(plats);

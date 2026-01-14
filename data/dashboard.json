@@ -1,0 +1,29 @@
+{
+  "kpi": {
+    "chiffreAffaires": {
+      "valeur": 72450,
+      "devise": "MAD",
+      "variation": 12.5
+    },
+    "totalCommandes": {
+      "valeur": 8,
+      "variation": 8.2
+    },
+    "reservationsActives": 5,
+    "totalEmployes": 7,
+    "tablesDisponibles": {
+      "disponibles": 5,
+      "total": 10
+    }
+  },
+  "charts": {
+    "revenusParMois": {
+      "labels": ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin"],
+      "data": [12000, 15000, 11000, 17000, 16000, 19000]
+    },
+    "commandesParStatut": {
+      "labels": ["Livrée", "En attente", "Annulée"],
+      "data": [5, 2, 1]
+    }
+  }
+}
