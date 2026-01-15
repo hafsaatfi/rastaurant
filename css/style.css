@@ -75,3 +75,58 @@ button {
   margin: 10% auto;
 }
 
+/* Layout */
+#wrapper {
+    min-height: 100vh;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    width: 250px;
+    min-height: 100vh;
+    background: #111827;
+}
+
+/* Sidebar heading */
+.sidebar-heading {
+    border-bottom: 1px solid #1f2937;
+}
+
+/* Menu items */
+.sidebar-menu .list-group-item {
+    background: transparent;
+    color: #d1d5db;
+    border: none;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.sidebar-menu .list-group-item i {
+    font-size: 1.1rem;
+}
+
+/* Hover */
+.sidebar-menu .list-group-item:hover {
+    background: #1f2937;
+    color: #fff;
+    padding-left: 26px;
+}
+
+/* Active link */
+.sidebar-menu .list-group-item.active {
+    background: #2563eb;
+    color: #fff;
+    border-radius: 0;
+}
+
+/* Footer */
+.sidebar-footer {
+    border-top: 1px solid #1f2937;
+    color: #9ca3af;
+}
+
+/* Page content */
+#page-content-wrapper {
+    background: #f9fafb;
+}
